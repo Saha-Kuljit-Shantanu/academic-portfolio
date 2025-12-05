@@ -1,0 +1,212 @@
+@media screen and (max-width:1400px){
+
+    
+
+    section{
+
+        width: 100%;
+       
+    }
+
+    .arrow-icon-up, .arrow-icon-down{
+
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (max-width:1200px){
+
+    #desktop-nav{
+        display: none
+    }
+
+    #hamburger-nav{
+
+        display:flex;
+    }
+
+    section{
+
+        margin: 0 0;
+    }
+
+    .profile{
+
+        min-width: auto;
+    }
+
+    
+    .photo-container{
+
+        max-height: 300px;
+        max-width: 225px;
+    }
+
+    .about-me-2 p{
+
+        font-weight: 300;
+        font-size: 1rem;
+    }
+
+    
+
+    
+
+    section{
+
+        height: fit-content;
+        margin: 0 5%; 
+    }
+
+    
+
+    .project-cluster,.edu-cluster,.edu-cluster-2, .publi-cluster{
+
+        display: block;
+    }
+
+    
+    
+    .education-container{
+
+        margin-right: 0;
+
+    }
+
+    
+
+    
+
+    
+}
+
+@media screen and (max-width:768px){
+
+    #about{
+
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    #about, .contact-upper-container{
+
+        display: block;
+        margin: 0 0;
+    
+    }
+
+    .org-name{
+
+        margin-bottom: 1rem;
+    }
+
+    .project-container{
+
+        margin-right: 0;
+
+    }
+
+    
+
+    .dept, .date, .status{
+
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .org, .paper{
+
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .dept-name, .org-name{
+
+        font-weight: 300;
+        font-size: 1rem;
+        
+        
+    }
+
+    .title{
+
+        font-size: 1.2rem;
+    }
+
+    .repo{
+
+        font-size: 1rem;
+        text-underline-offset: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .description{
+
+        font-size: 0.8rem;
+    }
+
+    .semester-cluster, .semester-details{
+
+        margin-left: 0;
+    }
+
+    .course-title, .course-code{
+
+        font-size: 1rem;      
+    
+    }
+
+    .contact-container p{
+
+        font-size: small;
+
+    }
+
+    footer .nav-links{
+
+        display: none;
+    }
+
+    .mail-icon{
+
+        width: 55px;
+    }
+
+    .logo{
+
+        font-size: 1.5rem;
+    }
+
+    footer p{
+
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .course-title, .course-code{
+
+        font-size: 0.8rem;      
+    
+    }
+
+    .course-title{
+
+        text-align: left;
+        /* min-width: fit-content; */
+
+    }
+
+    
+
+    footer p{
+
+        font-size: 0.7rem;
+    }
+    
+}

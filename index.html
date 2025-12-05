@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Saha Kuljit Shantanu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id = "desktop-nav">
+        <div class= "logo">Saha Kuljit Shantanu</div>
+        <div class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#publication">Publication</a></li>
+            <li><a href="#teaching">Teaching</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+        </div>
+    </nav>
+    <nav id= "hamburger-nav">
+        <div class="logo"> Saha Kuljit Shantanu </div>
+        <div class="hamburger-menu"> 
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+                <li><a href="#publication" onclick="toggleMenu()">Publication</a></li>
+                <li><a href="#teaching" onclick="toggleMenu()">Teaching</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id = "about">
+
+        <div  class="profile">
+            <div class="photo-container">
+                <img class= "photo" src="./assets/my_photo_formal.jpg" alt="Saha Kuljit Shantanu" >
+            </div>
+    
+            <div class="about-me-1">
+                <!-- <p class="hello-I-am"> Hello, I am </p> -->
+                <h1 class="title"> Saha Kuljit Shantanu</h1>
+                <p class="designation"> Lecturer, </p>
+                <p class="dept-name"> Department of Computer Science and Engineering</p>
+                <p class="org-name"> International University of Business Agriculture and Technology (IUBAT) </p>
+                <p class="org-addr"> 4 Embankment Drive Road</p>
+                <p class="org-addr"> Sector 10, Uttara Model Town</p>
+                <p class="org-addr"> Dhaka-1230, Bangladesh</p>
+            
+            </div>
+        
+        </div>
+
+        <div class="about-me">
+            <div class="about-me-2">
+                <p> Saha Kuljit Shantanu is a full-time lecturer in the department of Computer Science and Engineering since July 2025, at International University of Business Agriculture and Technology (IUBAT). He earned his Bachelor of Science degree in Computer Science and Engineering from Bangladesh University of Engineering and Technology (BUET). His area of interest lies in Human Computer Interaction (HCI), primarily in the intersection of AI and pedagogy. </p>
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-color" onclick="window.open('./assets/CV_or_resume.pdf')"> Download CV</button>
+            
+                <button class="btn btn-color" onclick="location.href='./#contact'"> Get in Touch</button>
+            </div>
+        </div>
+        <img src="./assets/arrowdown.png" alt="arrow icon down" class="arrow-icon-down" onclick="location.href ='./#projects'">
+    </section>
+
+    <section id = "projects">
+
+        <img src="./assets/arrowup.png" alt="arrow icon up" class="arrow-icon-up" onclick="location.href ='./#about'">
+        
+        <div class="project">
+
+            <h1 class="title">Projects</h1>
+
+            <div class="project-container">
+
+                <div class="project-cluster">
+
+                    <p class="title"> EduPresenta </p>
+                    <!-- <p class="repo" onclick="window.open('https://github.com/Saha-Kuljit-Shantanu/Context_Based_image_Retrieval')"> Github </p> -->
+            
+                </div>
+
+                <p class="description"> A framework that generates pedagogically sound teaching presentations. This system is planned to be evaluated by lecturers of different disciplines in different Universities. The proposal is already submitted to HCII 2026.</p>
+
+            </div>
+
+            <div class="project-container">
+
+                <div class="project-cluster">
+
+                    <p class="title"> Context Based Image Retrieval through Adaptive coweighing and Aggregation Strategy</p>
+                    <p class="repo" onclick="window.open('https://github.com/Saha-Kuljit-Shantanu/Context_Based_image_Retrieval')"> Github </p>
+            
+                </div>
+
+                <p class="description"> An evaluation framework of my undergraduate thesis related to computer vision, where the system takes an image as a query and outputs images prior to its relevance in adaptive coweighing and aggregation strategy.</p>
+
+            </div>
+        </div>
+
+        
+
+        <img src="./assets/arrowdown.png" alt="arrow icon down" class="arrow-icon-down" onclick="location.href ='./#education'">
+    
+    </section>
+
+    <section id = "education">
+
+        <img src="./assets/arrowup.png" alt="arrow icon up" class="arrow-icon-up" onclick="location.href ='./#projects'">
+        
+        <div class="education">
+
+            <h1 class="title">Education</h1>
+
+            <div class="education-container">
+
+                <div class="edu-cluster">
+
+                    <p class="title"> Bachelor of Science </p>
+                    <p class="dept"> Computer Science and Engineering </p>
+            
+                </div>
+
+                <div class="edu-cluster-2">
+
+                    <p class="org"> Bangladesh University of Engineering and Technology (BUET) </p>
+                    <p class="date"> February 2020 to March 2025 </p>
+            
+                </div>
+
+               
+            </div>
+
+            <div class="education-container">
+
+                <div class="edu-cluster">
+
+                    <p class="title"> Higher Secondary Certificate </p>
+                    <p class="dept"> Science </p>
+            
+                </div>
+
+                <div class="edu-cluster-2">
+
+                    <p class="org"> Notre Dame College </p>
+                    <p class="date"> February 2017 to May 2019 </p>
+            
+                </div>
+
+               
+            </div>
+
+            
+        </div>
+
+        
+
+        <img src="./assets/arrowdown.png" alt="arrow icon down" class="arrow-icon-down" onclick="location.href ='./#publication'">
+    
+    </section>
+
+    <section id = "publication">
+
+        <img src="./assets/arrowup.png" alt="arrow icon up" class="arrow-icon-up" onclick="location.href ='./#education'">
+        
+        <div class="publication-segment">
+
+            <h1 class="title">Publication</h1>
+
+            <div class="publication-container">
+
+                <div class="publi-cluster">
+
+                    <p class="paper"> Extending Feature Selection Strategies in VGG16:<br> Convolutional Feature Aggregation for Content-Based Image Retrieval </p>
+                    <p class="status"> Accepted for Presentation</p>
+            
+                </div>
+
+                
+
+                <p class="description"> IEEE 5th International Conference on Computing and Machine Intelligence (ICMI'2026) </p>
+                    
+
+               
+            </div>
+
+            <div class="publication-container">
+
+                <div class="publi-cluster">
+
+                    <p class="paper"> Edupresenta: A Conversational AI Agent for Pedagogically Sound Presentation Generation for Instructors </p>
+                    <p class="status"> Proposal under review </p>
+            
+                </div>
+
+                <p class="description"> 28th International Conference on Human-Computer Interaction (HCII'2026) </p>
+               
+
+               
+            </div>
+
+            
+        </div>
+
+        
+
+        <img src="./assets/arrowdown.png" alt="arrow icon down" class="arrow-icon-down" onclick="location.href ='./#teaching'">
+    
+    </section>
+
+
+    <section id="teaching">
+
+        <img src="./assets/arrowup.png" alt="arrow icon up" class="arrow-icon-up" onclick="location.href ='./#publication'">
+        
+        <div class="publication-segment">
+
+            <h1 class="title">Teaching</h1>
+
+            <div class="semester-container">
+
+                <div class="semester-details">
+                    <h2 class="semester"> Fall 2025 </h2>
+                    <h2 class="date"> October to January </h2>
+                </div>
+                
+                <div class="semester-cluster">
+
+                    <p class="course-code"> CSC 103</p>
+                    <p class="course-title"> Fundamentals of Computer and Applications</p>
+                    <!-- <p class="course-materials" onclick="window.open('https://github.com/Saha-Kuljit-Shantanu/Context_Based_image_Retrieval')"> Materials </p> -->
+            
+                </div>
+
+                <div class="semester-cluster">
+
+                    <p class="course-code"> CSC 183</p>
+                    <p class="course-title"> Programming in C</p>
+                    <!-- <p class="course-materials" onclick="window.open('https://github.com/Saha-Kuljit-Shantanu/Context_Based_image_Retrieval')"> Materials </p> -->
+            
+                </div>
+
+                <div class="semester-cluster">
+
+                    <p class="course-code"> CSC 469</p>
+                    <p class="course-title"> Software Engineering</p>
+                    <!-- <p class="course-materials" onclick="window.open('https://github.com/Saha-Kuljit-Shantanu/Context_Based_image_Retrieval')"> Materials </p> -->
+            
+                </div>
+
+            </div>
+
+            <div class="semester-container">
+
+                <div class="semester-details">
+                <h2 class="semester"> Summer 2025 </h2>
+                <h2 class="date"> June to September </h2>
+                </div>
+
+                <div class="semester-cluster">
+
+                    <p class="course-code"> CSC 103</p>
+                    <p class="course-title"> Fundamentals of Computer and Applications</p>
+                    <!-- <p class="course-materials" onclick="window.open('https://github.com/Saha-Kuljit-Shantanu/Context_Based_image_Retrieval')"> Materials </p> -->
+            
+                </div>
+
+                <div class="semester-cluster">
+
+                    <p class="course-code"> CSE 3391</p>
+                    <p class="course-title"> Web Engineering</p>
+                    <!-- <p class="course-materials" onclick="window.open('https://github.com/Saha-Kuljit-Shantanu/Context_Based_image_Retrieval')"> Materials </p> -->
+            
+                </div>
+
+                <div class="semester-cluster">
+
+                    <p class="course-code"> CSC 437</p>
+                    <p class="course-title"> Compiler Design</p>
+                    <!-- <p class="course-materials" onclick="window.open('https://github.com/Saha-Kuljit-Shantanu/Context_Based_image_Retrieval')"> Materials </p> -->
+            
+                </div>
+
+            </div>
+
+            
+
+        </div>
+
+        <img src="./assets/arrowdown.png" alt="arrow icon down" class="arrow-icon-down" onclick="location.href ='./#contact'">
+    
+    </section>
+
+    <section id= "contact">
+        
+        <p class="title"> Contact Me </p>
+        <img src="./assets/arrowup.png" alt="arrow icon up" class="arrow-icon-up" onclick="location.href ='./#teaching'">
+         
+        <div class="contact-upper-container">
+            <div class="contact-container">
+                <img src="./assets/email.png" alt="mail icon" class="mail-icon" onclick="window.open('mailto:shantanu.cse@iubat.edu')">
+                <p><a href="mailto:shantanu.cse@iubat.edu">shantanu.cse@iubat.edu</a></p>
+            </div>
+            <div class="contact-container">
+                <img src="./assets/linkedin.png" alt="mail icon" class="in-icon" onclick="window.open('https://www.linkedin.com/in/saha-kuljit-shantanu-081b5033b/')">
+                <p><a href="https://www.linkedin.com/in/saha-kuljit-shantanu-081b5033b/">Saha Kuljit Shantanu</a></p>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <footer>
+
+        <nav>
+            <div class="nav-links-">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#publication">Publication</a></li>
+                    <li><a href="#teaching">Teaching</a></li>
+                    <li><a href="#contact">Contact</a></li>
+            
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Saha Kuljit Shantanu. All Rights Reserved</p>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
