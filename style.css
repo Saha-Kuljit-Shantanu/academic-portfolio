@@ -508,8 +508,18 @@ section{
 .paper{
 
     font-size: 1.7rem;
+    cursor: pointer;
     
 }
+
+.paper:hover{
+
+    color: rgb(53, 53, 53);
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+
+}
+
 
 .status{
 
